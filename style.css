@@ -1,0 +1,881 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(245, 161, 221);
+}
+#nav{
+    height: 7%;
+    width: 100%;
+    background-color: azure;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 9999;
+}
+#nav h1{
+    margin-top: 10px;
+    margin-right: 100px;
+    transition: 0.5s ease-in-out;
+}
+#nav h4{
+    font-size: 1vw;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+#nav h4:hover{
+    text-decoration: underline;
+}
+#nav h3{
+    margin-top: 10px;
+}
+#content{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#content1{
+    height: 90%;
+    width: 50%;
+    background-color: cadetblue;
+    border-radius: 5vw;
+    margin-right: 2vw;
+    margin-top: 4vw;
+    margin-left: 2vw;
+
+}
+#content2{
+    height: 90%;
+    width: 50%;
+    background-color: chocolate;
+    border-radius: 5vw;
+     margin-top: 4vw;
+     margin-right: 2vw;
+}
+#content1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5vw;
+}
+#content2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5vw;
+}
+#page1{
+    height: 100%;
+    width: 100%;
+    /* background-color: brown; */
+}
+#page1-heading{
+    margin-top: 2vw;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5vw;
+}
+#page1-heading h1{
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 1vw;
+}
+#page1-heading button{
+     margin-right: 20px;
+     margin-top: 40px;
+     height: 60px;
+     width: 200px;
+     font-size: 1vw;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    background-color: #fff;
+}
+#page1-heading button:hover {
+    border: 2px dashed black;
+}
+#page1-box{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+#box1{
+    height:600px;
+    width:400px;
+    background-color: cadetblue;
+}
+#box1-1{
+    height: 70%;
+    width: 100%;
+    background-color: black;
+}
+#box1-1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out;
+}
+#box1-2{
+    height:30%;
+    width: 100%;
+    background-color: blueviolet;
+}
+#con1{
+    height: 60%;
+    width: 100%;
+    background-color:white;
+}
+#con1 h1{
+    font-size: 1vw;
+    font-family: Apercu, "Gill Sans", sans-serif;
+}
+#con1 h2{
+    font-size: 1vw;
+    color: rgb(111, 105, 105);
+    font-family: Apercu, "Gill Sans", sans-serif;
+}
+#con1 h3{
+     font-family: Apercu, "Gill Sans", sans-serif;
+}
+#button1{
+    height: 40%;
+    width: 100%;
+    background-color: cadetblue;
+}
+#button1 button{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    font-size: 1.5vw;
+}
+#button1 button:hover{
+    border: 2px dashed black;
+}
+#box2{
+    height:600px;
+    width:400px;
+    background-color: cadetblue;
+
+}
+#box2-1{
+    height: 70%;
+    width: 100%;
+    background-color: black;
+}
+#box2-1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out;
+}
+#box2-2{
+    height:30%;
+    width: 100%;
+    background-color: blueviolet;
+}
+#con2{
+    height: 60%;
+    width: 100%;
+    background-color:white;
+}
+#con2 h1{
+    font-size: 1vw;
+    font-family: Apercu, "Gill Sans", sans-serif;
+}
+#con2 h2{
+    font-size: 1vw;
+    color: rgb(118, 111, 111);
+    font-family: Apercu, "Gill Sans", sans-serif;
+}
+#con2 h3{
+     font-family: Apercu, "Gill Sans", sans-serif;
+}
+#button2{
+    height: 40%;
+    width: 100%;
+    background-color: cadetblue;
+}
+#button2 button{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    font-size: 1.5vw;
+}
+#button2 button:hover{
+    border: 2px dashed black;
+}
+#box3{
+    height:600px;
+    width:400px;
+    background-color: cadetblue;
+}
+#box3-1{
+    height: 70%;
+    width: 100%;
+    background-color: black;
+}
+#box3-1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out;
+}
+#box3-2{
+    height:30%;
+    width: 100%;
+    background-color: blueviolet;
+}
+#con3{
+    height: 60%;
+    width: 100%;
+    background-color:white;
+}
+#con3 h1{
+    font-size: 1vw;
+    font-family: Apercu, "Gill Sans", sans-serif;
+}
+#con3 h2{
+    font-size: 1vw;
+    color: rgb(118, 111, 111);
+    font-family: Apercu, "Gill Sans", sans-serif;
+}
+#con3 h3{
+     font-family: Apercu, "Gill Sans", sans-serif;
+}
+#button3{
+    height: 40%;
+    width: 100%;
+    background-color: cadetblue;
+}
+#button3 button{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    font-size: 1.5vw;
+}
+#button3 button:hover{
+    border: 2px dashed black;
+}
+#box4{
+    height:600px;
+    width:400px;
+    background-color: cadetblue;
+
+}
+#box4-1{
+    height: 70%;
+    width: 100%;
+    background-color: black;
+}
+#box4-1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out;
+}
+#box4-2{
+    height:30%;
+    width: 100%;
+    background-color: blueviolet;
+}
+#con4{
+    height: 60%;
+    width: 100%;
+    background-color:white;
+}
+#con4 h1{
+    font-size: 1vw;
+    font-family: Apercu, "Gill Sans", sans-serif;
+    
+}
+#con4 h2{
+    font-size: 1vw;
+    color: rgb(118, 111, 111);
+    font-family: Apercu, "Gill Sans", sans-serif;
+}
+#con4 h3{
+     font-family: Apercu, "Gill Sans", sans-serif;
+}
+#button4{
+    height: 40%;
+    width: 100%;
+    background-color: cadetblue;
+}
+#button4 button{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    font-size: 1.5vw;
+}
+#button4 button:hover{
+    border: 2px dashed black;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+}
+#page2-box{
+    height: 98%;
+    width: 100%;
+    /* background-color: beige; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#box2_1{
+    margin-top: 20px;
+    height: 600px;
+    width: 400px;
+    background-color: blueviolet;
+}
+#box2_img{
+    height: 70%;
+    width: 100%;
+    background-color: chartreuse;
+}
+#box2_img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#box2_con{
+    height: 30%;
+    width: 100%;
+    background-color: palevioletred;
+}
+#box22_img{
+    height: 70%;
+    width: 100%;
+    background-color: chartreuse;
+}
+#box22_img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#box23_img{
+    height: 70%;
+    width: 100%;
+    background-color: chartreuse;
+}
+#box23_img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#box24_img{
+    height: 70%;
+    width: 100%;
+    background-color: chartreuse;
+}
+#box24_img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    /* background-color: palevioletred; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#page3-part1{
+    height: 100%;
+    width: 50%;
+    /* background-color: cadetblue; */
+}
+#page3-part1 h1{
+     font-family: Apercu, "Gill Sans", sans-serif;
+     margin-top: 10px;
+     margin-left: 10px;
+     font-size: 1.2vw;
+}
+#page3-part2 h1{
+     font-family: Apercu, "Gill Sans", sans-serif;
+     margin-top: 10px;
+     margin-left: 10px;
+     font-size: 1.2vw;
+}
+#page3-part2{
+    height: 100%;
+    width: 50%;
+    /* background-color: chocolate; */
+}
+#page3-img{
+    height: 90%;
+    width: 100%;
+    /* background-color: brown; */
+    margin-top:20px;
+    position:relative;
+    
+}
+#page3-img img{
+    height: 100%;
+    width: 98%;
+    object-fit: cover;
+
+}
+#page3-img button{
+    height: 60px;
+    width: 180px;
+    position:absolute;
+    margin-left: 350px;
+    margin-top: 350px;
+    border-top: 2px solid white ;
+     border-left: 2px solid white ;
+}
+#page3-img button:hover{
+    border: 2px dashed black;
+}
+#page32-img{
+    height: 90%;
+    width: 100%;
+    /* background-color: brown; */
+    margin-top:20px;
+    position:relative;
+    
+}
+#page32-img img{
+    height: 100%;
+    width: 98%;
+    object-fit: cover;
+
+}
+#page32-img button{
+    height: 60px;
+    width: 180px;
+    position:absolute;
+    margin-left: 350px;
+    margin-top: 350px;
+    border-top: 2px solid white ;
+     border-left: 2px solid white ;
+}
+#page32-img button:hover{
+    border: 2px dashed black;
+}
+#page4{
+    height: 100%;
+    width: 100%;
+    /* background-color: palevioletred; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#page4_part1{
+    height: 100%;
+    width: 35%;
+    /* background-color: aquamarine; */
+}
+#page4_part1 h2{
+     font-family: Apercu, "Gill Sans", sans-serif;
+     font-size: 1vw;
+     padding-top: 80px;
+     padding-left: 20px;
+     font-weight: 500;
+}
+#page4_part1 p{
+    font-family: Apercu, "Gill Sans", sans-serif;
+     font-size: 1vw;
+     padding-top: 15px;
+     padding-left: 20px;
+     font-weight: 700;
+}
+#page4_part1 button{
+    height: 40px;
+    width: 120px;
+    font-family: Apercu, "Gill Sans", sans-serif;
+     font-size: 0.7vw;
+     font-weight: 500;
+     margin-top: 20px;
+     margin-left:20px ;
+     background-color: #fff;
+      border-top: 2px solid white ;
+     border-left: 2px solid white ;
+}
+#page4_part1 h4{
+      font-family: Apercu, "Gill Sans", sans-serif;
+     font-size: 1vw;
+     font-weight: 500;
+      padding-top: 30px;
+     padding-left: 20px;
+}
+#ratting{
+    height: 20px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 40px;
+    margin-left:20px ;
+    font-size: 1vw;
+}
+#page4_part2{
+    height: 100%;
+    width: 60%;
+    background-color: blueviolet;
+    margin-left: 10vw;
+}
+#page4_part2 video{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+#page5{
+    height:100% ;
+    width: 100%;
+    /* background-color: purple; */
+}
+#page5_box{
+   height: 98%;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+#box5_1{
+    margin-top:80px;
+    height: 600px;
+    width: 400px;
+    /* background-color: rgb(123, 101, 144); */
+}
+#box5_1img{
+  height: 70%;
+  width: 100%;
+  background-color: chartreuse;
+}
+#box5_1img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#box5_2img{
+  height: 70%;
+  width: 100%;
+  background-color: chartreuse;
+}
+#box5_2img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#box5_3img{
+  height: 70%;
+  width: 100%;
+  background-color: chartreuse;
+}
+#box5_3img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#box5_4img{
+  height: 100%;
+  width: 100%;
+  background-color: chartreuse;
+}
+#box5_4img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#box5_1con{
+    height: 30%;
+    width: 100%;
+    /* background-color: darkblue; */
+}
+#content5{
+    height: 40%;
+    width: 100%;
+    /* background-color: #382929; */
+}
+#content5 h2{
+     font-family: Apercu, "Gill Sans", sans-serif;
+    font-size: 1.5vw;
+}
+#content5 h3{
+      font-family: Apercu, "Gill Sans", sans-serif;
+    font-size: 1vw;
+    color: rgb(105, 91, 82);
+}
+#content h4{
+      font-family: Apercu, "Gill Sans", sans-serif;
+    font-size: 1vw;
+}
+#color{
+    height: 30%;
+    width: 100%;
+    background-color: palevioletred;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+#color1{
+    height: 100%;
+    width:20% ;
+    background-color: rgb(240, 135, 60);
+}
+#color1:hover{
+    border: 2px dashed rgb(255, 252, 252);
+}
+#color2{
+    height: 100%;
+    width:20% ;
+    background-color: blueviolet;
+}
+#color2:hover{
+    border: 2px dashed rgb(255, 252, 252);
+}
+#color3{
+    height: 100%;
+    width:20% ;
+    background-color: rgb(232, 37, 157);
+}
+#color3:hover{
+    border: 2px dashed rgb(255, 252, 252);
+}
+#color4{
+    height: 100%;
+    width:20% ;
+    background-color: rgb(255, 184, 117);
+}
+#color4:hover{
+    border: 2px dashed rgb(255, 252, 252);
+}
+#color5{
+    height: 100%;
+    width:20% ;
+    background-color: rgb(243, 147, 222);
+}
+#color5:hover{
+    border: 2px dashed rgb(255, 252, 252);
+}
+#color6{
+    height: 100%;
+    width:20% ;
+    background-color: rgb(214, 35, 23);
+}
+#color6:hover{
+    border: 2px dashed rgb(255, 252, 252);
+}
+#color8{
+    height: 100%;
+    width:20% ;
+    background-color: rgb(53, 21, 0);
+}
+#color9{
+    height: 100%;
+    width:20% ;
+    background-color: rgb(57, 33, 4);
+}
+#color8:hover{
+    border: 2px dashed rgb(255, 252, 252);
+}
+#color9:hover{
+    border: 2px dashed rgb(255, 252, 252);
+}
+#color10{
+    height: 100%;
+    width:20% ;
+    background-color: rgb(2, 0, 2);
+}
+#color10:hover{
+    border: 2px dashed rgb(255, 252, 252);
+}
+#color11{
+    height: 100%;
+    width:20% ;
+    background-color: rgb(161, 81, 1);
+}
+#color11:hover{
+    border: 2px dashed rgb(255, 252, 252);
+}
+#color12{
+    height: 100%;
+    width:20% ;
+    background-color: rgb(121, 78, 29);
+}
+#color12:hover{
+    border: 2px dashed rgb(255, 252, 252);
+}
+#color13{
+    height: 100%;
+    width:20% ;
+    background-color: rgb(43, 18, 0);
+}
+#color13:hover{
+    border: 2px dashed rgb(251, 251, 251);
+}
+#color14{
+    height: 100%;
+    width:20% ;
+    background-color: rgb(135, 77, 39);
+}
+#color14:hover{
+    border: 2px dashed rgb(255, 252, 252);
+}
+#color15{
+    height: 100%;
+    width:20% ;
+    background-color: rgb(220, 5, 240);
+}
+#color15:hover{
+    border: 2px dashed rgb(255, 252, 252);
+}
+#color16{
+    height: 100%;
+    width:20% ;
+    background-color: rgb(240, 5, 5);
+}
+#color16:hover{
+    border: 2px dashed rgb(255, 252, 252);
+}
+#color17{
+    height: 100%;
+    width:20% ;
+    background-color: rgb(234, 124, 242);
+}
+#color17:hover{
+    border: 2px dashed rgb(255, 252, 252);
+}
+#color18{
+    height: 100%;
+    width:20% ;
+    background-color: rgb(76, 3, 67);
+}
+#color18:hover{
+    border: 2px dashed rgb(255, 252, 252);
+}
+#color19{
+    height: 100%;
+    width:20% ;
+    background-color:palevioletred;
+}
+#color19:hover{
+    border: 2px dashed rgb(255, 252, 252);
+}
+#color20{
+    height: 100%;
+    width:20% ;
+    background-color: rgb(130, 5, 80);
+}
+#color20:hover{
+    border: 2px dashed rgb(252, 252, 252);
+}
+#color21{
+    height: 100%;
+    width:20% ;
+    background-color:rosybrown;
+}
+#color21:hover{
+    border: 2px dashed rgb(245, 241, 241);
+}
+#but{
+    height: 30%;
+    width: 100%;
+    background-color: powderblue;
+}
+#but button{
+    font-family: Apercu, "Gill Sans", sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color:white ;
+    border-top: 2px solid white;
+     border-left: 2px solid white;
+      border-bottom: 2px solid rgb(4, 4, 4);
+       border-right: 2px solid rgb(9, 9, 9);
+}
+#but button:hover{
+    border: 3px dashed black;
+}
+#page6{
+    height: 100%;
+    width: 100%;
+    /* background-color: rosybrown; */
+
+}
+#page6 h2{
+     font-family: Apercu, "Gill Sans", sans-serif;
+     padding-top:10px ;
+     padding-left: 10px;
+     font-size: 1vw;
+}
+#page6_img{
+    height: 90%;
+    width:100% ;
+    /* background-color: peachpuff; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#page6_1{
+    height:600px;
+    width: 500px;
+    background-color: blueviolet;
+}
+#page6_1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page6_1 h1{
+    font-family: Apercu, "Gill Sans", sans-serif;
+    margin-top: 30px;
+    font-size: 0.7vw;
+    font-weight: 700;
+}
+#page6_2{
+    height: 700px;
+    width: 550px;
+    background-color: aquamarine;
+    margin-top: 100px;
+}
+#page6_2 h1{
+     font-family: Apercu, "Gill Sans", sans-serif;
+    margin-top: 30px;
+    font-size: 0.7vw;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+#page6_2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
